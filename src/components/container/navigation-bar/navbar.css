@@ -1,0 +1,127 @@
+.navigation {
+  margin-top: 10px;
+}
+
+.navbar {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+
+.nav-logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: baseline;
+}
+
+.logo-text {
+  font-size: 28px;
+  font-weight: 600;
+  font-family: cursive;
+  color: cyan;
+  margin-left: -20px;
+}
+
+.nav-content {
+  flex: 1;
+  margin-left: 50px;
+}
+
+.navbar-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+  flex-wrap: wrap;
+}
+
+.nav-link {
+  color: #d2d2d2;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nav-link:hover {
+  color: cyan;
+}
+
+.link-round {
+  border: 1px solid;
+  padding: 3px 16px 3px 16px !important;
+  border-radius: 25px;
+}
+
+.client-link {
+  background-color: cyan !important;
+  color: black !important;
+}
+
+.client-link:hover {
+  border: 3px solid cyan;
+  background-color: #161413 !important;
+  color: cyan !important;
+}
+
+.register-link {
+  background-color: #d0d0cf !important;
+  color: black !important;
+}
+
+.register-link:hover {
+  border: 3px solid #d0d0cf;
+  background-color: #161413 !important;
+  color: #d0d0cf !important;
+}
+
+.lang-link {
+  position: relative;
+}
+
+.language {
+  position: absolute;
+  left: 40px;
+  top: -28px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.language span {
+  margin-left: 5px;
+}
+
+@media only screen and (max-width: 1199px) {
+  .nav-content {
+    flex: 1 0 auto;
+    margin-left: 50px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media only screen and (max-width: 663px) {
+  .nav-item {
+    width: 100%;
+  }
+  .link-round {
+    width: 30%;
+    margin-top: 10px;
+    margin-left: -16px;
+  }
+
+  .language {
+    position: absolute;
+    width: 55px;
+    top: 15px;
+    left: 200px;
+  }
+}
