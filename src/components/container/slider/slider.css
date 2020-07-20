@@ -1,0 +1,36 @@
+.slider {
+  position: relative;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+
+.slider-heading {
+  font-size: 60px;
+  margin-left: 75px;
+  font-weight: 100;
+  color: cyan;
+}
+
+.jBnCOy {
+  position: absolute;
+  margin: 0;
+  top: 40px;
+}
+
+.QmVdP {
+  box-shadow: 0 0 1px 3px #d2d2d2 !important;
+}
+
+.dautGI {
+  border: 0.5px solid white !important;
+}
+
+.QmVdP:hover,
+.QmVdP:focus {
+  cursor: pointer !important;
+  box-shadow: 0 0 1px 3px #d2d2d2 !important;
+}
+.sc-Axmtr button:focus {
+  outline: 1px dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+}

@@ -1,18 +1,21 @@
 import React from "react";
 import Carousel from "react-elastic-carousel";
 import SliderImages from "./slider-Images";
+import "./slider.css";
 
-const breakPoints = [
-  { width: 1, itemsToShow: 1 },
-  { width: 550, itemsToShow: 2 },
-  { width: 768, itemsToShow: 3 },
-  { width: 1200, itemsToShow: 4 },
-];
+const breakPoints = [{ width: 1, itemsToShow: 1 }];
 
 const Slider = () => {
   return (
     <div className="slider">
+      <div className="slider-heading">Hero Prizes !</div>
       <Carousel breakPoints={breakPoints}>
+        <SliderImages />
+        <SliderImages />
+        <SliderImages />
+        <SliderImages />
+        <SliderImages />
+        <SliderImages />
         <SliderImages />
       </Carousel>
     </div>
